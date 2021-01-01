@@ -1,4 +1,4 @@
-#context manager
+# context manager
 
 class ContextManager:
     def __init__(self):
@@ -10,6 +10,7 @@ class ContextManager:
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         print("exit")
+
 
 if __name__ == '__main__':
     with ContextManager() as c:

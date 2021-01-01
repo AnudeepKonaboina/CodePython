@@ -64,7 +64,7 @@ finally:
 
 # Else block-is executed when there is no exception in try
 # Else and except are contradicting parts
-# else block cannot be writtten without except or befor except- we
+# else block cannot be written without except or befor except- we
 try:
     print('try')
 except:
@@ -76,6 +76,6 @@ finally:
 
 # user defined exceptions using raise keyword
 try:
-    raise Exception("My exeption")  # similar to throw in java for explicitly raising an exception
+    raise Exception("My exception")  # similar to throw in java for explicitly raising an exception
 except:
-    print("excpetion handled")
+    print("exception handled")
