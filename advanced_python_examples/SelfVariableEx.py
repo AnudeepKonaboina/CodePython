@@ -16,7 +16,7 @@ class A:
         print('Adiition of 2 numbers :', self.x, self.y, 'is ', self.x + self.y)
         self.z = 10
 
-    def sub(a):  # any variable can be used in the place of self.self is not a keyword ,so not mandatory
+    def sub(a):  # any vaxriable can be used in the place of self.self is not a keyword ,so not mandatory
         print('sub of 2 numbers :', a.x, a.y, 'is ', a.x - a.y)
 
 
